@@ -1,3 +1,27 @@
 /examples/blog/blog
 /examples/orders/orders
 /examples/basic/basic
+
+# Binaries for programs and plugins
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Test binary, build with `go test -c`
+*.test
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+# Project-local glide cache, RE: https://github.com/Masterminds/glide/issues/736
+.glide/
+.idea/
+.vscode/
+
+dist
+.DS_Store
+digital-services
+it/output/*.xlsx
+it/output/*.xls
+*/__pycache__/
